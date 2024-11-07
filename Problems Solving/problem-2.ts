@@ -13,5 +13,5 @@ const removeDuplicates = (numbers: number[]): number[] => {
     return nonDuplicateNumbers;
 }
 
-const result = removeDuplicates([1, 2, 2, 3, 4, 4, 5])
-console.log(result);
+const removeD = removeDuplicates([1, 2, 2, 3, 4, 4, 5])
+console.log(removeD);
