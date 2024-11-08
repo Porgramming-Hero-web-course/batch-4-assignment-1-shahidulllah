@@ -4,14 +4,7 @@ TypeScript enhances JavaScript by introducing static typing, with **union types*
 
 ## Understanding Union Types
 
-A **union type** allows a variable to hold multiple types, defined using the vertical bar (`|`). For example:
-
-```typescript
-function printStatusCode(code: string | number) {
-    console.log(`My status code is ${code}.`);
-}
-
-This function can accept both `string` and `number`, providing flexibility. However, developers must handle different types carefully to avoid runtime errors.
+A **union type** allows a variable to hold multiple types, defined using the vertical bar (`|`).
 
 ### Advantages of Union Types
 - **Flexibility**: Accept multiple argument types.
